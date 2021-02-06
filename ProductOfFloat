@@ -1,0 +1,14 @@
+using namespace std;
+#include<conio.h>
+#include <iostream>
+#include<stdio.h>
+ int main(){
+   float a,b;
+   cin >> a >> b;
+   float c;
+   c = a * b;
+   printf("%0.1f",c);
+ }
+ 
+ 
+ //I tried using the setprecision but it somehow gave me an error. That is why I had to resort to using printf.
